@@ -1,21 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <section class="hero">
-        <h1 class="hero-title"></h1>
-    </section>
-    
-    <section class="content">
-        <h2>About Me</h2>
-        <p>This is my personal space where I showcase my projects and skills.</p>
-    </section>
 
-    <script src="script.js"></script>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Mahdi Hosseini" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#986DFF" />
+    <meta property="og:title" content="Mahdi Hosseini" />
+    <meta property="og:image" content="assets/image/m4hbod.jpg" />
+    <meta property="og:site_name" content="XpMahdi" />
+    <meta property="og:description" content="Expert in Python, with a focus on FastAPI for backend development." />
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script src="assets/js/svg-inject.min.js"></script>
+    <title>Mahdi's Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="grid-layout">
+            <nav>
+                <a href="https://mahbod.link"><img src="assets/image/code.svg" alt="code" width="150px"
+                        height="25px" /></a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                    <div class="line4"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#s-home">Introduction</a></li>
+                    <li><a href="#s-about">About Me</a></li>
+                    <li>
+                        <a href="#s-projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#s-skills">Skills</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="s-home">
+            <div class="grid-layout">
+                <div id="home">
+                    <div id="home-container-text">
+                        <h1 class="delayMediumReveal">
+                            Hi there! I'm Mahdi. A
+                            <span> DevOps Engineer</span>.
+                        </h1>
+                        <p class="delayLargeReveal typewriter">
+                            Dynamic and results-driven DevOps Engineer with extensive experience in automating deployments, optimizing workflows, and enhancing system performance. Proficient in cloud technologies, CI/CD pipelines, and containerization tools like Docker and Kubernetes. Proven ability to collaborate with cross-functional teams to streamline operations and deliver high-quality solutions. Adept at implementing monitoring and logging solutions to ensure system reliability and security. Passionate about leveraging best practices to drive continuous improvement and innovation in fast-paced environments. </p>
+                        <img src="./assets/image/LogoMahdi.svg" alt="Mahdi Logo" onload="SVGInject(this)" id="logo" width="500px"
+                            height="500px" /> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="s-about">
+            <div class="grid-layout">
+                <div>
+                    <div id="creator-photo" class="delayMediumReveal"></div>
+                    <div>
+                        <h2 class="delaySmallReveal">About Me</h2>
+
+                        <p class="delayLargeReveal">
+                            I am a dedicated self-taught professional with over three years of experience in web development, primarily focused on the front end. Recently, I have expanded my skill set by diving into the world of DevOps, learning essential tools and practices such as Docker and Kubernetes. My passion for technology extends beyond just development; I am deeply interested in streamlining workflows, automating processes, and improving collaboration between development and operations teams. 
+
+                            While my background is rooted in front-end technologies like React and Next.js, I have also explored backend frameworks like Django, which has given me a well-rounded understanding of the software development lifecycle. My experience with DevOps tools has allowed me to contribute to building scalable, efficient, and reliable systems. 
+                            
+                            Throughout my journey, I have had the opportunity to collaborate with diverse teams on various projects, which has strengthened my communication skills and taught me how to thrive in team-oriented environments. I am always eager to learn new technologies, embrace challenges, and contribute to creating seamless, automated, and high-performing systems. My goal is to continue growing in the DevOps space, leveraging my development background to bridge the gap between code and infrastructure.                        </p>
+                        </p>
+                        <nav class="delayLargeReveal" style="display: flex; justify-content: center">
+                            <ul>
+                                <a href="mailto:xpmahdi@proton.me" rel="noopener" target="_blank">
+                                    <img src="./assets/icons/proton.svg" alt="Email" onload="SVGInject(this)" /></a>
+
+                                <a href="https://www.linkedin.com/in/mahdi-hosseini-7131b0258/" rel="noopener" target="_blank">
+                                    <img src="./assets/icons/linkedin.svg" alt="LinkedIn"
+                                        onload="SVGInject(this)" /></a>
+
+                                <a href="https://github.com/xpmahdi" rel="noopener" target="_blank">
+                                    <img src="./assets/icons/github.svg" alt="GitHub" onload="SVGInject(this)" />
+                                </a>
+
+                                <a href="https://t.me/MotonariKenshin" rel="noopener" target="_blank">
+                                    <img src="assets/icons/telegram.svg" rel="noopener" alt="Telegram"
+                                        onload="SVGInject(this)" />
+                                </a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="s-projects">
+            <div class="grid-layout">
+                <h2 class="delaySmallReveal">Projects <span></span></h2>
+                **/ <div id="projects">
+                    <article class="intervalCardReveal teslabank" style="min-height: 364px">
+
+                <a href="https://github.com/xpmahdi" rel="noopener" target="_blank"
+                    class="delayExtraBigReveal">View all Repositories</a>
+            </div>
+        </section>
+
+        <section id="s-skills">
+            <div class="grid-layout">
+                <div id="skills">
+                    <article id="skills-text">
+                        <h2 class="delaySmallReveal">
+                            Skills <span></span>
+                        </h2>
+                        <p class="delayMediumReveal changeDescription">
+                            I have recently been actively engaged in various
+                            projects, where I have gained significant
+                            experience working with a variety of
+                            technologies. These technologies include:
+                        </p>
+                    </article>
+
+                    <div id="skills-cards">
+                        <article class="python intervalCardReveal">
+                            <img src="assets/icons/python.svg" width="60px" height="60px" alt="Python" />
+                        </article>
+                        <article class="scrapy intervalCardReveal">
+                            <img src="assets/icons/scrapy.png" width="60px" height="60px" alt="Scrapy" />
+                        </article>
+                        <article class="django intervalCardReveal">
+                            <img src="assets/icons/aws-svgrepo-com.svg" width="60px" height="60px" alt="Django" />
+                        </article>
+                        <article class="pyrogram intervalCardReveal">
+                            <img src="assets/icons/pyrogram.png" width="50px" height="50px" alt="Pyrogram" />
+                        </article>
+                        <article class="mongo intervalCardReveal">
+                            <img src="assets/icons/mongodb.svg" width="60px" height="60px" alt="Mongo" />
+                        </article>
+                        <article class="redis intervalCardReveal">
+                            <img src="assets/icons/Linux.svg" width="60px" height="60px" alt="Redis" />
+                        </article>
+                        <article class="docker intervalCardReveal">
+                            <img src="assets/icons/docker.svg" width="60px" height="60px" alt="Docker" />
+                        </article>
+                        <article class="git intervalCardReveal">
+                            <img src="assets/icons/git.svg" width="60px" height="60px" alt="Git" />
+                        </article>
+                        <article class="kubernetes intervalCardReveal">
+                            <img src="assets/icons/kubernetes.svg" width="60px" height="60px" alt="Kubernetes" />
+                        </article>
+                        <article class="windmill intervalCardReveal">
+                            <img src="assets/icons/windmill.svg" width="60px" height="60px" alt="Windmill" />
+                        </article>
+                        <article class="react intervalCardReveal">
+                            <img src="assets/icons/react.svg" width="60px" height="60px" alt="React" />
+                        </article>
+                        <article class="nextjs intervalCardReveal">
+                            <img src="assets/icons/nextjs.svg" width="60px" height="60px" alt="NextJS" />
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="grid-layout">
+                <p>
+                    Copyright © 2025. No rights reserved. Code was stolen by
+                    Mahdi.
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
 </body>
+
 </html>
