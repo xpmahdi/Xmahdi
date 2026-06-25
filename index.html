@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,12 +7,10 @@
     <meta name="author" content="Mahdi Hosseini" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#986DFF" />
-
     <meta property="og:title" content="Mahdi Hosseini" />
     <meta property="og:image" content="./image/m4hbod.jpg" />
     <meta property="og:site_name" content="XpMahdi" />
-    <meta property="og:description" content="DevOps Engineer Portfolio" />
-
+    <meta property="og:description" content="Expert in Python, with a focus on FastAPI for backend development." />
     <link rel="icon" type="image/png" href="icon/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,133 +18,173 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <script src="./js/svg-inject.min.js"></script>
-
     <title>Mahdi's Portfolio</title>
 </head>
 
 <body>
+    <header>
+        <div class="grid-layout">
+            <nav>
+                <a href=""><img src="./image/code.svg" alt="code" width="150px"
+                        height="25px" /></a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                    <div class="line4"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#s-home">Introduction</a></li>
+                    <li><a href="#s-about">About Me</a></li>
+                    <li>
+                        <a href="#s-projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#s-skills">Skills</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<header>
-    <div class="grid-layout">
-        <nav>
-            <a href="#">
-                <img src="./image/code.svg" alt="code" width="150" height="25" />
-            </a>
-
-            <div class="mobile-menu">
-                <div></div><div></div><div></div><div></div>
+    <main>
+        <section id="s-home">
+            <div class="grid-layout">
+                <div id="home">
+                    <div id="home-container-text">
+                        <h1 class="delayMediumReveal">
+                            Hi there! I'm Mahdi. A
+                            <span> DevOps Engineer</span>.
+                        </h1>
+                        <p class="delayLargeReveal typewriter">
+                            Dynamic and results-driven DevOps Engineer with extensive experience in automating deployments, optimizing workflows, and enhancing system performance. Proficient in cloud technologies, CI/CD pipelines, and containerization tools like Docker and Kubernetes. Proven ability to collaborate with cross-functional teams to streamline operations and deliver high-quality solutions. Adept at implementing monitoring and logging solutions to ensure system reliability and security. Passionate about leveraging best practices to drive continuous improvement and innovation in fast-paced environments. </p>
+                        <img src="image/LogoMahdi.svg" alt="Mahdi Logo" onload="SVGInject(this)" id="logo" width="500px"
+                            height="500px" /> 
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <ul class="nav-list">
-                <li><a href="#s-home">Introduction</a></li>
-                <li><a href="#s-about">About Me</a></li>
-                <li><a href="#s-projects">Projects</a></li>
-                <li><a href="#s-skills">Skills</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+        <section id="s-about">
+            <div class="grid-layout">
+                <div>
+                    <div id="creator-photo" class="delayMediumReveal"></div>
+                    <div>
+                        <h2 class="delaySmallReveal">About Me</h2>
 
-<main>
+                        <p class="delayLargeReveal">
+                          
 
-<section id="s-home">
-    <div class="grid-layout">
+Junior DevOps Engineer with practical experience in Linux administration, Docker, CI/CD automation, Git, Nginx, and containerized application deployment. Experienced in building automated development pipelines using GitHub Actions and GitLab CI/CD and deploying multi-service applications in local environments.
 
-        <h1>
-            Hi there! I'm Mahdi. A <span>DevOps Engineer</span>.
-        </h1>
+Currently focused on deepening my knowledge of Kubernetes, Ansible, Prometheus, and cloud-native infrastructure. Fast learner with a strong problem-solving mindset and a genuine interest in automation, observability, and infrastructure engineering.
 
-        <p class="typewriter">
-            DevOps Engineer with experience in Docker, CI/CD, Linux and cloud systems.
-        </p>
+Seeking an opportunity to grow within a professional DevOps team and contribute to building reliable, scalable, and maintainable systems.nd taught me how to thrive in team-oriented environments. I am always eager to learn new technologies, embrace challenges, and contribute to creating seamless, automated, and high-performing systems. My goal is to continue growing in the DevOps space, leveraging my development background to bridge the gap between code and infrastructure.                        </p>
+                        </p>
+                        <nav class="delayLargeReveal" style="display: flex; justify-content: center">
+                            <ul>
+                                <a href="mailto:xpmahdi@proton.me" rel="noopener" target="_blank">
+                                    <img src="icon/proton.svg" alt="Email" onload="SVGInject(this)" /></a>
 
-        <img src="image/LogoMahdi.svg" alt="Logo" id="logo" width="500" height="500" />
+                                <a href="https://www.linkedin.com/in/mahdi-hosseini-7131b0258/" rel="noopener" target="_blank">
+                                    <img src="icon/linkedin.svg" alt="LinkedIn"
+                                        onload="SVGInject(this)" /></a>
 
-    </div>
-</section>
+                                <a href="https://github.com/xpmahdi" rel="noopener" target="_blank">
+                                    <img src="icon/github.svg" alt="GitHub" onload="SVGInject(this)" />
+                                </a>
 
-<section id="s-about">
-    <div class="grid-layout">
+                                <a href="https://t.me/MotonariKenshin" rel="noopener" target="_blank">
+                                    <img src="icon/telegram.svg" rel="noopener" alt="Telegram"
+                                        onload="SVGInject(this)" />
+                                </a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <h2>About Me</h2>
+        <section id="s-projects">
+            <div class="grid-layout">
+                <h2 class="delaySmallReveal">Projects <span></span></h2>
+                **/ <div id="projects">
+                    <article class="intervalCardReveal teslabank" style="min-height: 364px">
 
-        <p>
-            DevOps Engineer with hands-on experience in designing and maintaining automated deployment pipelines, containerized applications, and Linux-based infrastructure. Focused on building reliable CI/CD workflows using tools like Docker, GitHub Actions, and Kubernetes.
+                <a href="https://github.com/xpmahdi" rel="noopener" target="_blank"
+                    class="delayExtraBigReveal">View all Repositories</a>
+            </div>
+        </section>
 
-            Experienced in improving system performance through infrastructure automation, configuration management, and monitoring practices. Comfortable working in cross-functional environments to deliver scalable and maintainable solutions.
+        <section id="s-skills">
+            <div class="grid-layout">
+                <div id="skills">
+                    <article id="skills-text">
+                        <h2 class="delaySmallReveal">
+                            Skills <span></span>
+                        </h2>
+                        <p class="delayMediumReveal changeDescription">
+                            I have recently been actively engaged in various
+                            projects, where I have gained significant
+                            experience working with a variety of
+                            technologies. These technologies include:
+                        </p>
+                    </article>
 
-            Currently strengthening expertise in cloud-native systems, observability (logging and monitoring), and Infrastructure as Code, with a strong focus on practical implementation over theory.
-        </p>
+                    <div id="skills-cards">
+                        <article class="python intervalCardReveal">
+                            <img src="icon/python.svg" width="60px" height="60px" alt="Python" />
+                        </article>
+                        <article class="scrapy intervalCardReveal">
+                            <img src="icon/scrapy.png" width="60px" height="60px" alt="Scrapy" />
+                        </article>
+                        <article class="django intervalCardReveal">
+                            <img src="icon/aws-svgrepo-com.svg" width="60px" height="60px" alt="Django" />
+                        </article>
+                        <article class="pyrogram intervalCardReveal">
+                            <img src="icon/pyrogram.png" width="50px" height="50px" alt="Pyrogram" />
+                        </article>
+                        <article class="mongo intervalCardReveal">
+                            <img src="icon/mongodb.svg" width="60px" height="60px" alt="Mongo" />
+                        </article>
+                        <article class="redis intervalCardReveal">
+                            <img src="icon/Linux.svg" width="60px" height="60px" alt="Redis" />
+                        </article>
+                        <article class="docker intervalCardReveal">
+                            <img src="icon/docker.svg" width="60px" height="60px" alt="Docker" />
+                        </article>
+                        <article class="git intervalCardReveal">
+                            <img src="icon/git.svg" width="60px" height="60px" alt="Git" />
+                        </article>
+                        <article class="kubernetes intervalCardReveal">
+                            <img src="icon/kubernetes.svg" width="60px" height="60px" alt="Kubernetes" />
+                        </article>
+                        <article class="windmill intervalCardReveal">
+                            <img src="icon/windmill.svg" width="60px" height="60px" alt="Windmill" />
+                        </article>
+                        <article class="react intervalCardReveal">
+                            <img src="icon/react.svg" width="60px" height="60px" alt="React" />
+                        </article>
+                        <article class="nextjs intervalCardReveal">
+                            <img src="icon/nextjs.svg" width="60px" height="60px" alt="NextJS" />
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <nav>
-            <a href="mailto:xpmahdi@proton.me"><img src="icon/proton.svg" alt="email" /></a>
-            <a href="https://www.linkedin.com"><img src="icon/linkedin.svg" alt="linkedin" /></a>
-            <a href="https://github.com/xpmahdi"><img src="icon/github.svg" alt="github" /></a>
-            <a href="https://t.me/"><img src="icon/telegram.svg" alt="telegram" /></a>
-        </nav>
+        <footer>
+            <div class="grid-layout">
+                <p>
+                    Copyright © 2025. No rights reserved. Code was stolen by
+                    Mahdi.
+                </p>
+            </div>
+        </footer>
+    </main>
 
-    </div>
-</section>
-
-<section id="s-projects">
-    <div class="grid-layout">
-
-        <h2>Projects</h2>
-
-        <div id="projects">
-
-            <article>
-                <h3>WordPress on Kubernetes Deployment</h3>
-                <a href="https://github.com/xpmahdi/wordpress-k8s-deployment" target="_blank">
-                    View Project
-                </a>
-            </article>
-
-            <article>
-                <h3>Spotify DevOps Data Pipeline</h3>
-                <a href="https://github.com/xpmahdi/spotify-devops-data-pipeline" target="_blank">
-                    View Project
-                </a>
-            </article>
-
-            <article>
-                <h3>NadinSoft DevOps Internship Task</h3>
-                <a href="https://github.com/xpmahdi/nadinsoft-devops-intern-task" target="_blank">
-                    View Project
-                </a>
-            </article>
-
-        </div>
-
-    </div>
-</section>
-
-<section id="s-skills">
-    <div class="grid-layout">
-
-        <h2>Skills</h2>
-
-        <div id="skills-cards">
-            <img src="icon/python.svg" alt="Python" />
-            <img src="icon/docker.svg" alt="Docker" />
-            <img src="icon/git.svg" alt="Git" />
-            <img src="icon/kubernetes.svg" alt="Kubernetes" />
-            <img src="icon/linux.svg" alt="Linux" />
-        </div>
-
-    </div>
-</section>
-
-</main>
-
-<footer>
-    <div class="grid-layout">
-        <p>© 2025 Mahdi Portfolio</p>
-    </div>
-</footer>
-
-<script src="https://unpkg.com/scrollreveal"></script>
-<script type="module" src="js/main.js"></script>
-
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
+
 </html>
