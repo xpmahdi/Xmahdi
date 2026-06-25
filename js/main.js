@@ -9,7 +9,7 @@ try {
 }
 
 try {
-    initScrollReveal();
+    //initScrollReveal();
 } catch (e) {
     console.error("ScrollReveal error:", e);
 }
